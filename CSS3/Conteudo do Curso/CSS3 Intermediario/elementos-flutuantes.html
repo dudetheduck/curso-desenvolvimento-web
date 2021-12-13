@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elementos flutuantes</title>
+        <style>
+
+            #principal {
+                border: 5px solid red;
+                background: green;
+            }
+            
+            .conteudo {
+                background: blue;
+                border: 1px solid grey;
+                width: 200px;
+                height: 200px;
+                margin: 10px;
+                float: right;
+
+                color: white;
+            }
+
+            /*
+            .conteudo1 {
+                background: red;
+                border: 1px solid grey;
+                width: 200px;
+                height: 200px;
+                margin: 10px;
+                float: left;
+
+                color: white;
+            } */
+
+            .conteudo-zero {
+                background: red;
+                border: 1px solid red;
+                width: 200px;
+                height: 200px;
+                margin: 10px;
+
+                color: white;
+            }
+
+            .clear {
+                clear: both;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div id="principal">
+
+            <div class="conteudo">
+                Conteúdo 1
+            </div>
+
+            <div class="conteudo">
+                Conteúdo 2
+            </div>
+
+            <div class="conteudo">
+                Conteúdo 3
+            </div>
+
+            <p class="clear">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sint ullam beatae rerum esse vero earum, atque debitis tempore exercitationem quas! Dolorum, sequi! Laudantium, nobis? Nostrum eos corrupti veniam et? Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, id repellendus? Blanditiis repudiandae quam neque voluptas numquam cum amet assumenda nulla nihil doloribus pariatur id sit culpa, possimus porro odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque velit cum ipsam maiores reiciendis doloribus ipsa, est modi quam consectetur atque cumque aliquid tempore saepe iure incidunt eligendi vero deleniti.</p>
+
+            <!-- <div class="clear"></div> -->
+
+        </div>
+
+    </body>
+
+</html>

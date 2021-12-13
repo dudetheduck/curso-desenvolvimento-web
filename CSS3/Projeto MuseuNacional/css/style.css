@@ -1,0 +1,190 @@
+/* Estrutura do site
+------------------------------------ */
+body {
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    background: #F4F2EC url(../imagens/fundo.png) repeat-x;
+}
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+    color: #AF670A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #227115;
+}
+
+/* Logo
+------------------------------------ */
+#logo h1 {
+    float: left;
+}
+
+#logo a {
+    width: 248px;
+    height: 21px;
+    background: url(../imagens/logo.png) no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+
+/* Barra de navegação
+------------------------------------ */
+header {
+    padding: 15px 0;
+    height: 55px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a:link {
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #535858;
+}
+
+/* Main
+------------------------------------ */
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 350px;
+    background: #EBE7DD;
+    padding-bottom: 30px;
+}
+
+/* Lateral
+------------------------------------ */
+#visita {
+    background: #CDC8B1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+#galeria {
+    padding: 0 27px 0 27px;
+}
+
+#galeria a {
+    display: block;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px;
+    margin: 10px 0 0 20px;
+}
+
+#galeria img {
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+#postagens {
+    width: 710px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#video, #mapa, #exposicoes, #historia {
+    width: 310px;
+}
+
+#video {
+    margin-left: 25px;
+}
+
+#mapa {
+    margin-right: 37px;
+}
+
+#exposicoes {
+    margin: 15px 0 0 25px;
+}
+
+#historia {
+    margin: 15px 37px 0 0px;
+    text-align: justify;
+}
+
+h3 {
+    color: #227115;
+    font-size: 1.0em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #86521A;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+/* Rodapé
+------------------------------------ */
+footer {
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../imagens/fundo-rodape.png) no-repeat center top;
+    margin-top: 20px;
+}
+
+footer>p a {
+    padding: 2px 10px;
+}
+
+/* Formulários
+------------------------------------ */
+input {
+    height: 20px;
+    width: 80px;
+    background: white;
+    border: none;
+    font-size: 1em;
+}
+
+input.campo {
+    border: 1px solid #ADA484;
+}
+
+input.botao {
+    background: #9B9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+input.botao:hover {
+    color: #227115;
+    cursor: pointer;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    display: none;
+}
