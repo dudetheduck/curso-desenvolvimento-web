@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript</title>
+        <script>
+
+            //true = false
+            /*
+            if(!(5 >= 2)) {
+                document.write('Verdadeiro')
+            } else {
+                document.write('Falso')
+            }
+            */
+
+            var nota = prompt('Digite a nota do aluno:')
+            var faltas = prompt('Digite a quantiade de faltas:')
+
+            var media = 7
+            var faltas_maximas = 15
+
+            /*
+            if (nota >= media && faltas <= faltas_maximas) {
+                document.write('Aprovado')
+                //lógica
+            } else {
+                document.write('Reprovado')
+                //lógica
+            }
+            */
+
+            var resultado = (nota >= media && faltas <= faltas_maximas) ? 'Aprovado' : 'Reprovado'
+            document.write(resultado)
+            
+        </script>
+    </head>
+
+    <body>
+
+        
+        
+    </body>
+</html>
