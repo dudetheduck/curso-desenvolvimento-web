@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript</title>
+        <script>
+
+            function modificaBG() {
+                document.getElementById('caixaInput').style.backgroundColor = '#FFFF00'
+            }
+
+            function verificaCaracter() {
+                var caracteres = document.getElementById('caixaInput').value
+                if (caracteres.length < 3) {
+                    document.getElementById('caixaInput').style.backgroundColor = '#FF0000'
+                } else {
+                    document.getElementById('caixaInput').style.backgroundColor = '#00FF00'
+                }
+            }
+
+        </script>
+    </head>
+
+    <body>
+
+        <input id="caixaInput" type="text" onfocus="modificaBG()" onblur="verificaCaracter()">
+        
+    </body>
+</html>
