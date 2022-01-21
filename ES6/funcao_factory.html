@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+
+            // Requisição HTTP
+            // Resposta HTTP
+            let Bicicleta1 = {
+                cor: 'Branca',
+                marcha: 'única',
+                aro: 12,
+                pedalar() { console.log('Método pedalar executado') }
+            }
+
+            let Bicicleta2 = {
+                cor: 'Vermelha',
+                marcha: '18',
+                aro: 26,
+                pedalar() { console.log('Método pedalar executado') }
+            }
+
+            console.log(Bicicleta1)
+            console.log(Bicicleta2)
+
+            let BicicletaFactory = function(cor, marcha, aro) {
+                // Lógica
+                // Requisição HTTP
+                // Resposta HTTP
+                return {
+                    cor,
+                    marcha,
+                    aro,
+                    tipoPedal,
+                    pedalar() { console.log('Método pedalar executado') }
+                }
+            }
+
+            let bicicleta3 = BicicletaFactory('Vermelha', '18', 26)
+            console.log(bicicleta3)
+
+            let bicicleta4 = BicicletaFactory('Preta', '21', 29)
+            console.log(bicicleta4)
+
+            // console.log(`Cor: ${bicicleta3.cor}`)
+            // bicicleta3.pedalar()
+
+        </script>
+    </head>
+    <body>
+
+        
+        
+    </body>
+</html>
